@@ -1,0 +1,73 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# AIMMXL
+#
+DEF AIMMXL U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "AIMMXL" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# BSPD
+#
+DEF BSPD U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "BSPD" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# HaltechElite1500A
+#
+DEF HaltechElite1500A U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "HaltechElite1500A" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -550 750 600 -2500 0 1 0 N
+X DPO2 1 -650 800 100 R 50 50 1 1 O
+X ~ 1 -650 700 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PMU16DL
+#
+DEF PMU16DL U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "PMU16DL" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# ShiftController
+#
+DEF ShiftController U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "ShiftController" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# WirelessTelemetry
+#
+DEF WirelessTelemetry U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "WirelessTelemetry" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library
