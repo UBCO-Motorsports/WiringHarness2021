@@ -24,4 +24,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-KiCad_Project/wiringharness2021/sym-lib-table
+
+/Kicad_Project/wiringharness2021/sym-lib-table
