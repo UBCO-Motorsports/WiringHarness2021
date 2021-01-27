@@ -13,72 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L harnesslib:AIMMXL U?
-U 1 1 6010D67A
-P 10300 1900
-F 0 "U?" H 10878 801 50  0000 L CNN
-F 1 "MXS1.2" H 10878 710 50  0000 L CNN
-F 2 "" H 10300 1900 50  0001 C CNN
-F 3 "" H 10300 1900 50  0001 C CNN
-	1    10300 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L harnesslib:BSPD U?
-U 1 1 6011390C
-P 8000 800
-F 0 "U?" H 8000 1065 50  0000 C CNN
-F 1 "BSPD" H 8000 974 50  0000 C CNN
-F 2 "" H 8050 800 50  0001 C CNN
-F 3 "" H 8050 800 50  0001 C CNN
-	1    8000 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L harnesslib:HaltechElite1500A U?
-U 1 1 60115733
-P 1200 4050
-F 0 "U?" H 1200 1250 50  0001 C CNN
-F 1 "Haltech Connector A" H 1200 1350 50  0000 C CNN
-F 2 "" H 1200 4050 50  0001 C CNN
-F 3 "" H 1200 4050 50  0001 C CNN
-	1    1200 4050
-	-1   0    0    1   
-$EndComp
-$Comp
-L harnesslib:HaltechElite1500B U?
-U 1 1 6011B413
-P 1200 7750
-F 0 "U?" H 1200 5100 50  0000 C CNN
-F 1 "Haltech Connector B" H 1200 5000 50  0000 C CNN
-F 2 "" H 1200 7750 50  0001 C CNN
-F 3 "" H 1200 7750 50  0001 C CNN
-	1    1200 7750
-	-1   0    0    1   
-$EndComp
-$Comp
-L harnesslib:PMU16DL U?
-U 1 1 6011DE74
-P 3650 1200
-F 0 "U?" V 4315 -275 50  0000 C CNN
-F 1 "PMU16DL" V 4224 -275 50  0000 C CNN
-F 2 "" H 3650 1200 50  0001 C CNN
-F 3 "" H 3650 1200 50  0001 C CNN
-	1    3650 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L harnesslib:WirelessTelemetry U?
-U 1 1 6012DED2
-P 7750 5450
-F 0 "U?" H 7750 5565 50  0000 C CNN
-F 1 "WirelessTelemetry" H 7750 5474 50  0000 C CNN
-F 2 "" H 7750 5450 50  0001 C CNN
-F 3 "" H 7750 5450 50  0001 C CNN
-	1    7750 5450
-	1    0    0    -1  
-$EndComp
 Text GLabel 8150 5750 2    50   Input ~ 0
 CANH
 Text GLabel 8150 5600 2    50   Input ~ 0
@@ -347,17 +281,6 @@ Wire Notes Line
 Text Notes 4700 4900 0    50   ~ 0
 Ignition
 $Comp
-L harnesslib:BOSCH_W0133-1605554 U?
-U 1 1 60112260
-P 3750 5850
-F 0 "U?" H 3725 5965 50  0000 C CNN
-F 1 "BOSCH_W0133-1605554" H 3725 5874 50  0000 C CNN
-F 2 "" H 3750 5850 50  0001 C CNN
-F 3 "" H 3750 5850 50  0001 C CNN
-	1    3750 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 601153BF
 P 3350 6650
@@ -416,17 +339,6 @@ F 2 "" V 9325 4700 50  0001 C CNN
 F 3 "~" V 9325 4700 50  0001 C CNN
 	1    9350 4600
 	-1   0    0    1   
-$EndComp
-$Comp
-L harnesslib:91CP16-3 U?
-U 1 1 60124857
-P 9500 6000
-F 0 "U?" H 10078 5976 50  0000 L CNN
-F 1 "91CP16-3 Pressure Sensor" H 10078 5885 50  0000 L CNN
-F 2 "" H 9500 6000 50  0001 C CNN
-F 3 "" H 9500 6000 50  0001 C CNN
-	1    9500 6000
-	1    0    0    -1  
 $EndComp
 $Comp
 L Motor:Motor_DC M?
@@ -694,17 +606,6 @@ Wire Notes Line
 	8150 2000 8150 3950
 Wire Notes Line
 	7200 2000 7200 3950
-$Comp
-L harnesslib:WirelessTelemetry U?
-U 1 1 601F675A
-P 7750 4250
-F 0 "U?" H 7750 4365 50  0000 C CNN
-F 1 "Shift Controller" H 7750 4274 50  0000 C CNN
-F 2 "" H 7750 4250 50  0001 C CNN
-F 3 "" H 7750 4250 50  0001 C CNN
-	1    7750 4250
-	1    0    0    -1  
-$EndComp
 Text GLabel 8150 4550 2    50   Input ~ 0
 CANH
 Text GLabel 8150 4400 2    50   Input ~ 0
@@ -746,47 +647,81 @@ F 3 "~" H 3550 3860 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L harnesslib:91CP16-3 U?
-U 1 1 601FC026
-P 3500 3100
-F 0 "U?" H 4078 3076 50  0000 L CNN
-F 1 "Oil Pressure Sensor" H 4078 2985 50  0000 L CNN
-F 2 "" H 3500 3100 50  0001 C CNN
-F 3 "" H 3500 3100 50  0001 C CNN
-	1    3500 3100
+L Lukas_Library:HaltechElite1500_CONA U?
+U 1 1 601233F5
+P 1200 4050
+F 0 "U?" H 1213 1235 50  0000 C CNN
+F 1 "HaltechElite1500_CONA" H 1213 1326 50  0000 C CNN
+F 2 "" H 1200 4050 50  0001 C CNN
+F 3 "" H 1200 4050 50  0001 C CNN
+	1    1200 4050
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2800 3900
+$Comp
+L Lukas_Library:HaltechElite1500_CONB U?
+U 1 1 60127D4D
+P 1200 7750
+F 0 "U?" H 1167 4885 50  0000 C CNN
+F 1 "HaltechElite1500_CONB" H 1167 4976 50  0000 C CNN
+F 2 "" H 1200 7750 50  0001 C CNN
+F 3 "" H 1200 7750 50  0001 C CNN
+	1    1200 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Lukas_Library:BOSCH_W0133-1605554 U?
+U 1 1 6012B145
+P 3750 5850
+F 0 "U?" H 3725 5965 50  0000 C CNN
+F 1 "BOSCH_W0133-1605554" H 3725 5874 50  0000 C CNN
+F 2 "" H 3750 5850 50  0001 C CNN
+F 3 "" H 3750 5850 50  0001 C CNN
+	1    3750 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L harnesslib:91CP16-3 U?
-U 1 1 601FD8E8
-P 6050 3350
-F 0 "U?" H 6142 2835 50  0000 C CNN
-F 1 "Coolant Temp Sensor" H 6142 2926 50  0000 C CNN
-F 2 "" H 6050 3350 50  0001 C CNN
-F 3 "" H 6050 3350 50  0001 C CNN
-	1    6050 3350
-	-1   0    0    1   
+L Lukas_Library:PMU16DL U?
+U 1 1 6012D012
+P 3650 1200
+F 0 "U?" V 4315 -217 50  0000 C CNN
+F 1 "PMU16DL" V 4224 -217 50  0000 C CNN
+F 2 "" H 3650 1200 50  0001 C CNN
+F 3 "" H 3650 1200 50  0001 C CNN
+	1    3650 1200
+	0    -1   -1   0   
 $EndComp
 $Comp
-L harnesslib:91CP16-3 U?
-U 1 1 601FF714
-P 6050 4250
-F 0 "U?" H 6142 3735 50  0000 C CNN
-F 1 "Crank Position Sensor" H 6142 3826 50  0000 C CNN
-F 2 "" H 6050 4250 50  0001 C CNN
-F 3 "" H 6050 4250 50  0001 C CNN
-	1    6050 4250
-	-1   0    0    1   
+L Lukas_Library:AIM_MXS1.2 U?
+U 1 1 601304AB
+P 10300 1900
+F 0 "U?" H 10878 801 50  0000 L CNN
+F 1 "AIM_MXS1.2" H 10878 710 50  0000 L CNN
+F 2 "" H 10300 1900 50  0001 C CNN
+F 3 "" H 10300 1900 50  0001 C CNN
+	1    10300 1900
+	1    0    0    -1  
 $EndComp
 $Comp
-L harnesslib:91CP16-3 U?
-U 1 1 60200D45
-P 4800 4100
-F 0 "U?" H 5378 4076 50  0000 L CNN
-F 1 "Cam Position Sensor" H 4400 4400 50  0000 L CNN
-F 2 "" H 4800 4100 50  0001 C CNN
-F 3 "" H 4800 4100 50  0001 C CNN
-	1    4800 4100
+L Lukas_Library:WirelessTelemetry U?
+U 1 1 60133BA6
+P 7750 4250
+F 0 "U?" H 7750 4365 50  0000 C CNN
+F 1 "WirelessTelemetry" H 7750 4274 50  0000 C CNN
+F 2 "" H 7750 4250 50  0001 C CNN
+F 3 "" H 7750 4250 50  0001 C CNN
+	1    7750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lukas_Library:WirelessTelemetry U?
+U 1 1 60134F69
+P 7750 5450
+F 0 "U?" H 7750 5565 50  0000 C CNN
+F 1 "WirelessTelemetry" H 7750 5474 50  0000 C CNN
+F 2 "" H 7750 5450 50  0001 C CNN
+F 3 "" H 7750 5450 50  0001 C CNN
+	1    7750 5450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

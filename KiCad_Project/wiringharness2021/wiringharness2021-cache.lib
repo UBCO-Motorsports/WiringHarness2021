@@ -138,70 +138,11 @@ X SB 4 400 200 300 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Motor_Motor_DC
+# Lukas_Library_AIM_MXS1.2
 #
-DEF Motor_Motor_DC M 0 0 Y Y 1 F N
-F0 "M" 100 100 50 H V L CNN
-F1 "Motor_Motor_DC" 100 -200 50 H V L TNN
-F2 "" 0 -90 50 H I C CNN
-F3 "" 0 -90 50 H I C CNN
-$FPLIST
- PinHeader*P2.54mm*
- TerminalBlock*
-$ENDFPLIST
-DRAW
-C 0 -60 128 0 1 10 N
-P 5 0 0 0 -50 -130 -50 20 0 -80 50 20 50 -130 N
-P 2 0 1 0 0 -300 0 -280 N
-P 2 0 1 0 0 -188 0 -204 N
-P 2 0 1 0 0 68 0 82 N
-P 2 0 1 0 0 80 0 100 N
-X + 1 0 200 100 D 50 50 1 1 P
-X - 2 0 -300 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_DIP_x01
-#
-DEF Switch_SW_DIP_x01 SW 0 0 Y N 1 F N
-F0 "SW" 0 150 50 H V C CNN
-F1 "Switch_SW_DIP_x01" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SW?DIP?x1*
-$ENDFPLIST
-DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-S -150 100 150 -100 0 1 10 f
-P 2 0 0 0 -60 5 93 46 N
-X ~ 1 -300 0 200 R 50 50 1 1 P
-X ~ 2 300 0 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# harnesslib_91CP16-3
-#
-DEF harnesslib_91CP16-3 U 0 40 Y Y 1 F N
-F0 "U" 0 0 50 H V C CNN
-F1 "harnesslib_91CP16-3" 0 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -250 200 250 -350 0 1 0 N
-S 250 50 550 -200 0 1 0 N
-X +5v 1 -350 150 100 R 50 50 1 1 W
-X GND 1 -350 -300 100 R 50 50 1 1 w
-X OUT 2 -350 -100 100 R 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
-# harnesslib_AIMMXL
-#
-DEF harnesslib_AIMMXL U 0 40 Y Y 1 F N
+DEF Lukas_Library_AIM_MXS1.2 U 0 40 Y Y 1 F N
 F0 "U" 0 -2350 50 H V C CNN
-F1 "harnesslib_AIMMXL" 0 0 50 H V C CNN
+F1 "Lukas_Library_AIM_MXS1.2" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -231,11 +172,11 @@ X +Vreference 9 -600 -900 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# harnesslib_BOSCH_W0133-1605554
+# Lukas_Library_BOSCH_W0133-1605554
 #
-DEF harnesslib_BOSCH_W0133-1605554 U 0 40 Y Y 1 F N
+DEF Lukas_Library_BOSCH_W0133-1605554 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "harnesslib_BOSCH_W0133-1605554" 0 0 50 H V C CNN
+F1 "Lukas_Library_BOSCH_W0133-1605554" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -252,35 +193,11 @@ X OUT4 9 350 -700 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# harnesslib_BSPD
+# Lukas_Library_HaltechElite1500_CONA
 #
-DEF harnesslib_BSPD U 0 40 Y Y 1 F N
-F0 "U" 0 -900 50 H V C CNN
-F1 "harnesslib_BSPD" 0 150 50 H V C CNN
-F2 "" 50 0 50 H I C CNN
-F3 "" 50 0 50 H I C CNN
-DRAW
-S -300 100 300 -850 0 1 0 f
-X SENS1 1 -400 0 100 R 50 50 1 1 I
-X ON 10 400 -300 100 L 50 50 1 1 O
-X ERR2 11 400 -150 100 L 50 50 1 1 O
-X ERR1 12 400 0 100 L 50 50 1 1 O
-X SENS2 2 -400 -150 100 R 50 50 1 1 I
-X RELAY 3 -400 -300 100 R 50 50 1 1 B
-X RELAY 4 -400 -450 100 R 50 50 1 1 B
-X +12v 5 -400 -600 100 R 50 50 1 1 W
-X GND 6 -400 -750 100 R 50 50 1 1 O
-X ~ 7 400 -750 100 L 50 50 1 1 N
-X ~ 8 400 -600 100 L 50 50 1 1 N
-X ~ 9 400 -450 100 L 50 50 1 1 N
-ENDDRAW
-ENDDEF
-#
-# harnesslib_HaltechElite1500A
-#
-DEF harnesslib_HaltechElite1500A U 0 40 Y Y 1 F N
+DEF Lukas_Library_HaltechElite1500_CONA U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "harnesslib_HaltechElite1500A" 0 850 50 H V C CNN
+F1 "Lukas_Library_HaltechElite1500_CONA" 0 850 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -322,11 +239,11 @@ X +5V_Sensor_Supply 9 -650 -100 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# harnesslib_HaltechElite1500B
+# Lukas_Library_HaltechElite1500_CONB
 #
-DEF harnesslib_HaltechElite1500B U 0 40 Y Y 1 F N
+DEF Lukas_Library_HaltechElite1500_CONB U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "harnesslib_HaltechElite1500B" 0 0 50 H V C CNN
+F1 "Lukas_Library_HaltechElite1500_CONB" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -360,11 +277,11 @@ X SPI2 9 -650 -900 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# harnesslib_PMU16DL
+# Lukas_Library_PMU16DL
 #
-DEF harnesslib_PMU16DL U 0 40 Y Y 1 F N
+DEF Lukas_Library_PMU16DL U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "harnesslib_PMU16DL" 0 -1250 50 H V C CNN
+F1 "Lukas_Library_PMU16DL" 0 -1250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -411,11 +328,11 @@ X O8 9 -600 -300 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# harnesslib_WirelessTelemetry
+# Lukas_Library_WirelessTelemetry
 #
-DEF harnesslib_WirelessTelemetry U 0 40 Y Y 1 F N
+DEF Lukas_Library_WirelessTelemetry U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "harnesslib_WirelessTelemetry" 0 0 50 H V C CNN
+F1 "Lukas_Library_WirelessTelemetry" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -432,6 +349,49 @@ X ~ 6 -400 -900 100 R 50 50 1 1 N
 X ~ 7 400 -900 100 L 50 50 1 1 N
 X ~ 8 400 -750 100 L 50 50 1 1 N
 X ~ 9 400 -600 100 L 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# Motor_Motor_DC
+#
+DEF Motor_Motor_DC M 0 0 Y Y 1 F N
+F0 "M" 100 100 50 H V L CNN
+F1 "Motor_Motor_DC" 100 -200 50 H V L TNN
+F2 "" 0 -90 50 H I C CNN
+F3 "" 0 -90 50 H I C CNN
+$FPLIST
+ PinHeader*P2.54mm*
+ TerminalBlock*
+$ENDFPLIST
+DRAW
+C 0 -60 128 0 1 10 N
+P 5 0 0 0 -50 -130 -50 20 0 -80 50 20 50 -130 N
+P 2 0 1 0 0 -300 0 -280 N
+P 2 0 1 0 0 -188 0 -204 N
+P 2 0 1 0 0 68 0 82 N
+P 2 0 1 0 0 80 0 100 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_DIP_x01
+#
+DEF Switch_SW_DIP_x01 SW 0 0 Y N 1 F N
+F0 "SW" 0 150 50 H V C CNN
+F1 "Switch_SW_DIP_x01" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SW?DIP?x1*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+S -150 100 150 -100 0 1 10 f
+P 2 0 0 0 -60 5 93 46 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
