@@ -13,11 +13,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 8450 5800 2    50   Input ~ 0
+Text GLabel 6550 4850 2    50   Input ~ 0
 CANH
-Text GLabel 8450 5650 2    50   Input ~ 0
+Text GLabel 6550 4700 2    50   Input ~ 0
 CANL
-Text GLabel 8600 1450 0    50   Input ~ 0
+Text GLabel 8600 1400 0    50   Input ~ 0
 +12v
 Text GLabel 2500 1050 1    50   Input ~ 0
 +12v
@@ -59,27 +59,27 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6013ECBF
-P 8600 1600
-F 0 "#PWR?" H 8600 1350 50  0001 C CNN
-F 1 "GND" H 8600 1450 50  0000 C CNN
-F 2 "" H 8600 1600 50  0001 C CNN
-F 3 "" H 8600 1600 50  0001 C CNN
-	1    8600 1600
+P 8600 1550
+F 0 "#PWR?" H 8600 1300 50  0001 C CNN
+F 1 "GND" H 8600 1400 50  0000 C CNN
+F 2 "" H 8600 1550 50  0001 C CNN
+F 3 "" H 8600 1550 50  0001 C CNN
+	1    8600 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60140811
-P 7450 5800
-F 0 "#PWR?" H 7450 5550 50  0001 C CNN
-F 1 "GND" H 7450 5650 50  0000 C CNN
-F 2 "" H 7450 5800 50  0001 C CNN
-F 3 "" H 7450 5800 50  0001 C CNN
-	1    7450 5800
+P 5550 4850
+F 0 "#PWR?" H 5550 4600 50  0001 C CNN
+F 1 "GND" H 5550 4700 50  0000 C CNN
+F 2 "" H 5550 4850 50  0001 C CNN
+F 3 "" H 5550 4850 50  0001 C CNN
+	1    5550 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 5800 7450 5800
+	5750 4850 5550 4850
 $Comp
 L Device:Fuse F?
 U 1 1 60142DCD
@@ -443,34 +443,34 @@ $EndComp
 $Comp
 L Switch:SW_DIP_x01 SW?
 U 1 1 601E11AA
-P 6100 6250
-F 0 "SW?" H 6100 6517 50  0000 C CNN
-F 1 "UPSHIFT" H 6100 6426 50  0000 C CNN
-F 2 "" H 6100 6250 50  0001 C CNN
-F 3 "~" H 6100 6250 50  0001 C CNN
-	1    6100 6250
+P 6050 6200
+F 0 "SW?" H 6050 6467 50  0000 C CNN
+F 1 "UPSHIFT" H 6050 6376 50  0000 C CNN
+F 2 "" H 6050 6200 50  0001 C CNN
+F 3 "~" H 6050 6200 50  0001 C CNN
+	1    6050 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DIP_x01 SW?
 U 1 1 601E11B4
-P 6100 6700
-F 0 "SW?" H 6100 6967 50  0000 C CNN
-F 1 "DOWNSHIFT" H 6100 6876 50  0000 C CNN
-F 2 "" H 6100 6700 50  0001 C CNN
-F 3 "~" H 6100 6700 50  0001 C CNN
-	1    6100 6700
+P 6050 6650
+F 0 "SW?" H 6050 6917 50  0000 C CNN
+F 1 "DOWNSHIFT" H 6050 6826 50  0000 C CNN
+F 2 "" H 6050 6650 50  0001 C CNN
+F 3 "~" H 6050 6650 50  0001 C CNN
+	1    6050 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DIP_x01 SW?
 U 1 1 601E11BE
-P 6100 7150
-F 0 "SW?" H 6100 7417 50  0000 C CNN
-F 1 "NEUTRAL" H 6100 7326 50  0000 C CNN
-F 2 "" H 6100 7150 50  0001 C CNN
-F 3 "~" H 6100 7150 50  0001 C CNN
-	1    6100 7150
+P 6050 7100
+F 0 "SW?" H 6050 7367 50  0000 C CNN
+F 1 "NEUTRAL" H 6050 7276 50  0000 C CNN
+F 2 "" H 6050 7100 50  0001 C CNN
+F 3 "~" H 6050 7100 50  0001 C CNN
+	1    6050 7100
 	1    0    0    -1  
 $EndComp
 Text Notes 5850 5800 0    50   ~ 0
@@ -478,49 +478,34 @@ Steering Wheel
 $Comp
 L Switch:SW_DIP_x01 SW?
 U 1 1 601EA861
-P 6100 7600
-F 0 "SW?" H 6100 7867 50  0000 C CNN
-F 1 "START" H 6100 7776 50  0000 C CNN
-F 2 "" H 6100 7600 50  0001 C CNN
-F 3 "~" H 6100 7600 50  0001 C CNN
-	1    6100 7600
+P 6050 7550
+F 0 "SW?" H 6050 7817 50  0000 C CNN
+F 1 "START" H 6050 7726 50  0000 C CNN
+F 2 "" H 6050 7550 50  0001 C CNN
+F 3 "~" H 6050 7550 50  0001 C CNN
+	1    6050 7550
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	5350 5800 5350 7750
-Text GLabel 8450 4600 2    50   Input ~ 0
+Text GLabel 7300 5750 0    50   Input ~ 0
 CANH
-Text GLabel 8450 4450 2    50   Input ~ 0
+Text GLabel 7300 5900 0    50   Input ~ 0
 CANL
-$Comp
-L power:GND #PWR?
-U 1 1 601F6786
-P 7450 4600
-F 0 "#PWR?" H 7450 4350 50  0001 C CNN
-F 1 "GND" H 7450 4450 50  0000 C CNN
-F 2 "" H 7450 4600 50  0001 C CNN
-F 3 "" H 7450 4600 50  0001 C CNN
-	1    7450 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7650 4600 7450 4600
-Wire Notes Line
-	5600 2950 5600 4900
-Text Notes 3900 2950 0    50   ~ 0
-ENGINE
+Text Notes 3650 2950 0    50   ~ 0
+Engine
 Text GLabel 2750 6100 0    50   Input ~ 0
 COIL1
 $Comp
 L Motor:Motor_DC M?
 U 1 1 601FABFE
-P 5350 4300
-F 0 "M?" H 5100 4100 50  0000 L CNN
-F 1 "Starter Motor" H 4700 4250 50  0000 L CNN
-F 2 "" H 5350 4210 50  0001 C CNN
-F 3 "~" H 5350 4210 50  0001 C CNN
-	1    5350 4300
-	1    0    0    -1  
+P 4600 4050
+F 0 "M?" H 4350 3850 50  0000 L CNN
+F 1 "Starter Motor" H 3950 4000 50  0000 L CNN
+F 2 "" H 4600 3960 50  0001 C CNN
+F 3 "~" H 4600 3960 50  0001 C CNN
+	1    4600 4050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Lukas_Library:HaltechElite1500_CONA U?
@@ -557,24 +542,13 @@ F 3 "" H 3100 1050 50  0001 C CNN
 $EndComp
 $Comp
 L Lukas_Library:WirelessTelemetry U?
-U 1 1 60133BA6
-P 8050 4300
-F 0 "U?" H 8050 4415 50  0000 C CNN
-F 1 "WirelessTelemetry" H 8050 4324 50  0000 C CNN
-F 2 "" H 8050 4300 50  0001 C CNN
-F 3 "" H 8050 4300 50  0001 C CNN
-	1    8050 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lukas_Library:WirelessTelemetry U?
 U 1 1 60134F69
-P 8050 5500
-F 0 "U?" H 8050 5615 50  0000 C CNN
-F 1 "WirelessTelemetry" H 8050 5524 50  0000 C CNN
-F 2 "" H 8050 5500 50  0001 C CNN
-F 3 "" H 8050 5500 50  0001 C CNN
-	1    8050 5500
+P 6150 4550
+F 0 "U?" H 6150 4665 50  0000 C CNN
+F 1 "WirelessTelemetry" H 6150 4574 50  0000 C CNN
+F 2 "" H 6150 4550 50  0001 C CNN
+F 3 "" H 6150 4550 50  0001 C CNN
+	1    6150 4550
 	1    0    0    -1  
 $EndComp
 Text GLabel 2800 1650 3    50   Input ~ 0
@@ -583,72 +557,72 @@ Text GLabel 3700 1650 3    50   Input ~ 0
 STARTER
 Text GLabel 5300 1650 3    50   Input ~ 0
 STARTER
-Text GLabel 5350 4100 0    50   Input ~ 0
+Text GLabel 4600 3850 2    50   Input ~ 0
 STARTER
 $Comp
 L power:GND #PWR?
 U 1 1 60125302
-P 5350 4600
-F 0 "#PWR?" H 5350 4350 50  0001 C CNN
-F 1 "GND" H 5350 4450 50  0000 C CNN
-F 2 "" H 5350 4600 50  0001 C CNN
-F 3 "" H 5350 4600 50  0001 C CNN
-	1    5350 4600
-	1    0    0    -1  
+P 4600 4350
+F 0 "#PWR?" H 4600 4100 50  0001 C CNN
+F 1 "GND" H 4600 4200 50  0000 C CNN
+F 2 "" H 4600 4350 50  0001 C CNN
+F 3 "" H 4600 4350 50  0001 C CNN
+	1    4600 4350
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Lukas_Library:VR_Sensor U?
 U 1 1 6012CE46
-P 5250 3250
-F 0 "U?" H 5478 3301 50  0001 L CNN
-F 1 "Cam Position" H 5000 3450 50  0000 L CNN
-F 2 "" H 5300 3200 50  0001 C CNN
-F 3 "" H 5300 3200 50  0001 C CNN
-	1    5250 3250
+P 4150 3750
+F 0 "U?" H 4378 3801 50  0001 L CNN
+F 1 "Cam Position" H 3900 3950 50  0000 L CNN
+F 2 "" H 4200 3700 50  0001 C CNN
+F 3 "" H 4200 3700 50  0001 C CNN
+	1    4150 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lukas_Library:VR_Sensor U?
 U 1 1 6012D9D3
-P 5250 3750
-F 0 "U?" H 5478 3801 50  0001 L CNN
-F 1 "Crank Position" H 5000 3950 50  0000 L CNN
-F 2 "" H 5300 3700 50  0001 C CNN
-F 3 "" H 5300 3700 50  0001 C CNN
-	1    5250 3750
+P 4150 4200
+F 0 "U?" H 4378 4251 50  0001 L CNN
+F 1 "Crank Position" H 3900 4400 50  0000 L CNN
+F 2 "" H 4200 4150 50  0001 C CNN
+F 3 "" H 4200 4150 50  0001 C CNN
+	1    4150 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lukas_Library:Generic_5v_Sensor U?
 U 1 1 601304C0
-P 3150 3350
-F 0 "U?" H 3378 3401 50  0001 L CNN
-F 1 "Oil Pres." H 3000 3550 50  0000 L CNN
-F 2 "" H 3200 3300 50  0001 C CNN
-F 3 "" H 3200 3300 50  0001 C CNN
-	1    3150 3350
+P 3150 3200
+F 0 "U?" H 3378 3251 50  0001 L CNN
+F 1 "Oil Pres." H 3000 3400 50  0000 L CNN
+F 2 "" H 3200 3150 50  0001 C CNN
+F 3 "" H 3200 3150 50  0001 C CNN
+	1    3150 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lukas_Library:Generic_5v_Sensor U?
 U 1 1 601311A3
-P 3150 3850
-F 0 "U?" H 3378 3901 50  0001 L CNN
-F 1 "Coolant Temp" H 3000 4050 50  0000 L CNN
-F 2 "" H 3200 3800 50  0001 C CNN
-F 3 "" H 3200 3800 50  0001 C CNN
-	1    3150 3850
+P 3150 3700
+F 0 "U?" H 3378 3751 50  0001 L CNN
+F 1 "Coolant Temp" H 3000 3900 50  0000 L CNN
+F 2 "" H 3200 3650 50  0001 C CNN
+F 3 "" H 3200 3650 50  0001 C CNN
+	1    3150 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lukas_Library:Generic_5v_Sensor U?
 U 1 1 601316A5
-P 3150 4400
-F 0 "U?" H 3378 4451 50  0001 L CNN
-F 1 "Air Temp" H 3100 4600 50  0000 L CNN
-F 2 "" H 3200 4350 50  0001 C CNN
-F 3 "" H 3200 4350 50  0001 C CNN
-	1    3150 4400
+P 3150 4200
+F 0 "U?" H 3378 4251 50  0001 L CNN
+F 1 "Air Temp" H 3100 4400 50  0000 L CNN
+F 2 "" H 3200 4150 50  0001 C CNN
+F 3 "" H 3200 4150 50  0001 C CNN
+	1    3150 4200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -662,13 +636,13 @@ F 3 "" H 10750 6150 50  0001 C CNN
 	1    10700 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5000 3150 0    50   Input ~ 0
+Text GLabel 3900 3650 0    50   Input ~ 0
 CAM+
-Text GLabel 5000 3350 0    50   Input ~ 0
+Text GLabel 3900 3850 0    50   Input ~ 0
 CAM-
-Text GLabel 5000 3650 0    50   Input ~ 0
+Text GLabel 3900 4100 0    50   Input ~ 0
 CRANK+
-Text GLabel 5000 3850 0    50   Input ~ 0
+Text GLabel 3900 4300 0    50   Input ~ 0
 CRANK-
 Text GLabel 1850 7550 2    50   Input ~ 0
 CAM+
@@ -681,59 +655,59 @@ CRANK-
 $Comp
 L power:GND #PWR?
 U 1 1 601477F8
-P 2900 4500
-F 0 "#PWR?" H 2900 4250 50  0001 C CNN
-F 1 "GND" H 2900 4350 50  0000 C CNN
-F 2 "" H 2900 4500 50  0001 C CNN
-F 3 "" H 2900 4500 50  0001 C CNN
-	1    2900 4500
+P 2900 4300
+F 0 "#PWR?" H 2900 4050 50  0001 C CNN
+F 1 "GND" H 2900 4150 50  0000 C CNN
+F 2 "" H 2900 4300 50  0001 C CNN
+F 3 "" H 2900 4300 50  0001 C CNN
+	1    2900 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60147F55
-P 2900 3950
-F 0 "#PWR?" H 2900 3700 50  0001 C CNN
-F 1 "GND" H 2900 3800 50  0000 C CNN
-F 2 "" H 2900 3950 50  0001 C CNN
-F 3 "" H 2900 3950 50  0001 C CNN
-	1    2900 3950
+P 2900 3800
+F 0 "#PWR?" H 2900 3550 50  0001 C CNN
+F 1 "GND" H 2900 3650 50  0000 C CNN
+F 2 "" H 2900 3800 50  0001 C CNN
+F 3 "" H 2900 3800 50  0001 C CNN
+	1    2900 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6014A3C7
-P 2900 3450
-F 0 "#PWR?" H 2900 3200 50  0001 C CNN
-F 1 "GND" H 2900 3300 50  0000 C CNN
-F 2 "" H 2900 3450 50  0001 C CNN
-F 3 "" H 2900 3450 50  0001 C CNN
-	1    2900 3450
+P 2900 3300
+F 0 "#PWR?" H 2900 3050 50  0001 C CNN
+F 1 "GND" H 2900 3150 50  0000 C CNN
+F 2 "" H 2900 3300 50  0001 C CNN
+F 3 "" H 2900 3300 50  0001 C CNN
+	1    2900 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Motor:Motor_DC M?
 U 1 1 60157DE5
-P 4550 4300
-F 0 "M?" H 4300 4100 50  0000 L CNN
-F 1 "Water Pump" H 3950 4250 50  0000 L CNN
-F 2 "" H 4550 4210 50  0001 C CNN
-F 3 "~" H 4550 4210 50  0001 C CNN
-	1    4550 4300
-	1    0    0    -1  
+P 4600 3250
+F 0 "M?" H 4350 3050 50  0000 L CNN
+F 1 "Water Pump" H 4000 3200 50  0000 L CNN
+F 2 "" H 4600 3160 50  0001 C CNN
+F 3 "~" H 4600 3160 50  0001 C CNN
+	1    4600 3250
+	-1   0    0    -1  
 $EndComp
-Text GLabel 4550 4100 0    50   Input ~ 0
+Text GLabel 4600 3050 2    50   Input ~ 0
 WATERPUMP
 $Comp
 L power:GND #PWR?
 U 1 1 60157DF0
-P 4550 4600
-F 0 "#PWR?" H 4550 4350 50  0001 C CNN
-F 1 "GND" H 4550 4450 50  0000 C CNN
-F 2 "" H 4550 4600 50  0001 C CNN
-F 3 "" H 4550 4600 50  0001 C CNN
-	1    4550 4600
-	1    0    0    -1  
+P 4600 3550
+F 0 "#PWR?" H 4600 3300 50  0001 C CNN
+F 1 "GND" H 4600 3400 50  0000 C CNN
+F 2 "" H 4600 3550 50  0001 C CNN
+F 3 "" H 4600 3550 50  0001 C CNN
+	1    4600 3550
+	-1   0    0    -1  
 $EndComp
 Text GLabel 6300 1650 3    50   Input ~ 0
 WATERPUMP
@@ -742,57 +716,53 @@ FUELPUMP_SUPPLY
 $Comp
 L Lukas_Library:BSPD U?
 U 1 1 6015AB3F
-P 9000 850
-F 0 "U?" H 9000 1115 50  0000 C CNN
-F 1 "BSPD" H 9000 1024 50  0000 C CNN
-F 2 "" H 9050 850 50  0001 C CNN
-F 3 "" H 9050 850 50  0001 C CNN
-	1    9000 850 
+P 9000 800
+F 0 "U?" H 9000 1065 50  0001 C CNN
+F 1 "BSPD" H 9000 950 50  0000 C CNN
+F 2 "" H 9050 800 50  0001 C CNN
+F 3 "" H 9050 800 50  0001 C CNN
+	1    9000 800 
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	5600 4900 2450 4900
-Wire Notes Line
 	2450 4900 2450 2950
-Wire Notes Line
-	2450 2950 5600 2950
 Wire Notes Line
 	5300 7750 5300 5000
 $Comp
 L Lukas_Library:Generic_5v_Sensor U?
 U 1 1 6018237E
-P 4200 3350
-F 0 "U?" H 4428 3401 50  0001 L CNN
-F 1 "Air Pres" H 4050 3550 50  0000 L CNN
-F 2 "" H 4250 3300 50  0001 C CNN
-F 3 "" H 4250 3300 50  0001 C CNN
-	1    4200 3350
+P 4150 3200
+F 0 "U?" H 4378 3251 50  0001 L CNN
+F 1 "Air Pres" H 4000 3400 50  0000 L CNN
+F 2 "" H 4200 3150 50  0001 C CNN
+F 3 "" H 4200 3150 50  0001 C CNN
+	1    4150 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60182FA2
-P 3950 3450
-F 0 "#PWR?" H 3950 3200 50  0001 C CNN
-F 1 "GND" H 3950 3300 50  0000 C CNN
-F 2 "" H 3950 3450 50  0001 C CNN
-F 3 "" H 3950 3450 50  0001 C CNN
-	1    3950 3450
+P 3900 3300
+F 0 "#PWR?" H 3900 3050 50  0001 C CNN
+F 1 "GND" H 3900 3150 50  0000 C CNN
+F 2 "" H 3900 3300 50  0001 C CNN
+F 3 "" H 3900 3300 50  0001 C CNN
+	1    3900 3300
 	1    0    0    -1  
 $EndComp
 Text GLabel 1850 6550 2    50   Input ~ 0
 AIRPRES
-Text GLabel 3950 3350 0    50   Input ~ 0
+Text GLabel 3900 3200 0    50   Input ~ 0
 AIRPRES
-Text GLabel 2900 3350 0    50   Input ~ 0
+Text GLabel 2900 3200 0    50   Input ~ 0
 OILPRES
 Text GLabel 1850 6450 2    50   Input ~ 0
 OILPRES
-Text GLabel 2900 4400 0    50   Input ~ 0
+Text GLabel 2900 4200 0    50   Input ~ 0
 AIRTEMP
 Text GLabel 1850 7450 2    50   Input ~ 0
 AIRTEMP
-Text GLabel 2900 3850 0    50   Input ~ 0
+Text GLabel 2900 3700 0    50   Input ~ 0
 CLNTTEMP
 Text GLabel 1850 7350 2    50   Input ~ 0
 CLNTTEMP
@@ -893,159 +863,145 @@ Text GLabel 9950 2200 0    50   Input ~ 0
 $Comp
 L power:GND #PWR?
 U 1 1 601AE5C9
-P 7250 2550
-F 0 "#PWR?" H 7250 2300 50  0001 C CNN
-F 1 "GND" H 7250 2400 50  0000 C CNN
-F 2 "" H 7250 2550 50  0001 C CNN
-F 3 "" H 7250 2550 50  0001 C CNN
-	1    7250 2550
+P 7200 3250
+F 0 "#PWR?" H 7200 3000 50  0001 C CNN
+F 1 "GND" H 7200 3100 50  0000 C CNN
+F 2 "" H 7200 3250 50  0001 C CNN
+F 3 "" H 7200 3250 50  0001 C CNN
+	1    7200 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 2450 0    50   Input ~ 0
+Text GLabel 7200 3150 0    50   Input ~ 0
 APP1
 $Comp
 L Lukas_Library:Generic_5v_Sensor U?
 U 1 1 601AA850
-P 7500 2450
-F 0 "U?" H 7728 2501 50  0001 L CNN
-F 1 "Accel. Pedal Pos 1" H 6950 2650 50  0000 L CNN
-F 2 "" H 7550 2400 50  0001 C CNN
-F 3 "" H 7550 2400 50  0001 C CNN
-	1    7500 2450
+P 7450 3150
+F 0 "U?" H 7678 3201 50  0001 L CNN
+F 1 "Accel. Pedal Pos 1" H 6900 3350 50  0000 L CNN
+F 2 "" H 7500 3100 50  0001 C CNN
+F 3 "" H 7500 3100 50  0001 C CNN
+	1    7450 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 601ACE17
-P 8200 2550
-F 0 "#PWR?" H 8200 2300 50  0001 C CNN
-F 1 "GND" H 8200 2400 50  0000 C CNN
-F 2 "" H 8200 2550 50  0001 C CNN
-F 3 "" H 8200 2550 50  0001 C CNN
-	1    8200 2550
+P 8150 3250
+F 0 "#PWR?" H 8150 3000 50  0001 C CNN
+F 1 "GND" H 8150 3100 50  0000 C CNN
+F 2 "" H 8150 3250 50  0001 C CNN
+F 3 "" H 8150 3250 50  0001 C CNN
+	1    8150 3250
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8200 2450 2    50   Input ~ 0
+Text GLabel 8150 3150 2    50   Input ~ 0
 APP2
 $Comp
 L Lukas_Library:Generic_5v_Sensor U?
 U 1 1 601AC1FF
-P 7950 2450
-F 0 "U?" H 8178 2501 50  0001 L CNN
-F 1 "Accel. Pedal Pos 2" H 7400 2650 50  0000 L CNN
-F 2 "" H 8000 2400 50  0001 C CNN
-F 3 "" H 8000 2400 50  0001 C CNN
-	1    7950 2450
+P 7900 3150
+F 0 "U?" H 8128 3201 50  0001 L CNN
+F 1 "Accel. Pedal Pos 2" H 7350 3350 50  0000 L CNN
+F 2 "" H 7950 3100 50  0001 C CNN
+F 3 "" H 7950 3100 50  0001 C CNN
+	1    7900 3150
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DIP_x01 SW?
 U 1 1 601BFA58
-P 7300 3100
-F 0 "SW?" H 7300 3367 50  0000 C CNN
-F 1 "BRAKE OVERTRAVEL" H 7300 3276 50  0000 C CNN
-F 2 "" H 7300 3100 50  0001 C CNN
-F 3 "~" H 7300 3100 50  0001 C CNN
-	1    7300 3100
+P 7250 3800
+F 0 "SW?" H 7250 4067 50  0000 C CNN
+F 1 "BRAKE OVERTRAVEL" H 7250 3976 50  0000 C CNN
+F 2 "" H 7250 3800 50  0001 C CNN
+F 3 "~" H 7250 3800 50  0001 C CNN
+	1    7250 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lukas_Library:Generic_5v_Sensor U?
 U 1 1 601C1FDB
-P 7950 3100
-F 0 "U?" H 8178 3151 50  0001 L CNN
-F 1 "Brake Pressure" H 7400 3300 50  0000 L CNN
-F 2 "" H 8000 3050 50  0001 C CNN
-F 3 "" H 8000 3050 50  0001 C CNN
-	1    7950 3100
+P 7900 3800
+F 0 "U?" H 8128 3851 50  0001 L CNN
+F 1 "Brake Pressure" H 7350 4000 50  0000 L CNN
+F 2 "" H 7950 3750 50  0001 C CNN
+F 3 "" H 7950 3750 50  0001 C CNN
+	1    7900 3800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 601C2DC6
-P 8200 3200
-F 0 "#PWR?" H 8200 2950 50  0001 C CNN
-F 1 "GND" H 8200 3050 50  0000 C CNN
-F 2 "" H 8200 3200 50  0001 C CNN
-F 3 "" H 8200 3200 50  0001 C CNN
-	1    8200 3200
+P 8150 3900
+F 0 "#PWR?" H 8150 3650 50  0001 C CNN
+F 1 "GND" H 8150 3750 50  0000 C CNN
+F 2 "" H 8150 3900 50  0001 C CNN
+F 3 "" H 8150 3900 50  0001 C CNN
+	1    8150 3900
 	-1   0    0    -1  
 $EndComp
-Wire Notes Line
-	8600 3400 8600 2150
-Wire Notes Line
-	8600 2150 6800 2150
-Wire Notes Line
-	6800 2150 6800 3400
-Wire Notes Line
-	6800 3400 8600 3400
-Text Notes 7500 2150 0    50   ~ 0
+Text Notes 7550 2850 0    50   ~ 0
 Pedal Box
 $Comp
 L Lukas_Library:BOSCH_280750149 U?
 U 1 1 601CF9DD
-P 7600 700
-F 0 "U?" H 7928 146 50  0001 L CNN
-F 1 "BOSCH_280750149" H 7200 650 50  0000 L CNN
-F 2 "" H 7300 650 50  0001 C CNN
-F 3 "" H 7300 650 50  0001 C CNN
-	1    7600 700 
+P 7600 600
+F 0 "U?" H 7928 46  50  0001 L CNN
+F 1 "BOSCH_280750149" H 7200 550 50  0000 L CNN
+F 2 "" H 7300 550 50  0001 C CNN
+F 3 "" H 7300 550 50  0001 C CNN
+	1    7600 600 
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	8050 1950 6800 1950
-Wire Notes Line
-	6800 1950 6800 650 
-Wire Notes Line
-	6800 650  8050 650 
-Wire Notes Line
-	8050 650  8050 1950
-Text Notes 7000 650  0    50   ~ 0
+	8050 550  8050 1850
+Text Notes 7000 550  0    50   ~ 0
 Electronic Throttle Body
 $Comp
 L Lukas_Library:VR_Sensor U?
 U 1 1 601D5BB9
-P 3950 4700
-F 0 "U?" H 4178 4751 50  0001 L CNN
-F 1 "Knock Sensor" H 3650 4900 50  0000 L CNN
-F 2 "" H 4000 4650 50  0001 C CNN
-F 3 "" H 4000 4650 50  0001 C CNN
-	1    3950 4700
+P 3550 4700
+F 0 "U?" H 3778 4751 50  0001 L CNN
+F 1 "Knock Sensor" H 3250 4900 50  0000 L CNN
+F 2 "" H 3600 4650 50  0001 C CNN
+F 3 "" H 3600 4650 50  0001 C CNN
+	1    3550 4700
 	1    0    0    -1  
 $EndComp
-Text GLabel 3700 4600 0    50   Input ~ 0
+Text GLabel 3300 4600 0    50   Input ~ 0
 KNOCK+
 Text GLabel 1850 5650 2    50   Input ~ 0
 KNOCK+
 Text GLabel 1850 4150 2    50   Input ~ 0
 ETC_+5v
-Text GLabel 7200 1250 0    50   Input ~ 0
+Text GLabel 7200 1150 0    50   Input ~ 0
 ETC_+5v
-Text GLabel 7250 2350 0    50   Input ~ 0
+Text GLabel 7200 3050 0    50   Input ~ 0
 ETC_+5v
-Text GLabel 8200 2350 2    50   Input ~ 0
+Text GLabel 8150 3050 2    50   Input ~ 0
 ETC_+5v
-Text GLabel 8600 850  0    50   Input ~ 0
+Text GLabel 8600 800  0    50   Input ~ 0
 APP1
-Text GLabel 8200 3100 2    50   Input ~ 0
+Text GLabel 8150 3800 2    50   Input ~ 0
 BRAKEPRES
-Text GLabel 8600 1000 0    50   Input ~ 0
+Text GLabel 8600 950  0    50   Input ~ 0
 BRAKEPRES
-Text GLabel 6400 6250 2    50   Input ~ 0
+Text GLabel 6350 6200 2    50   Input ~ 0
 UPSHIFT
 Text GLabel 9950 2000 0    50   Input ~ 0
 UPSHIFT
 Text GLabel 9950 2400 0    50   Input ~ 0
 DOWNSHIFT
-Text GLabel 6400 6700 2    50   Input ~ 0
+Text GLabel 6350 6650 2    50   Input ~ 0
 DOWNSHIFT
 Text GLabel 9950 2500 0    50   Input ~ 0
 NEUTRAL
-Text GLabel 6400 7150 2    50   Input ~ 0
+Text GLabel 6350 7100 2    50   Input ~ 0
 NEUTRAL
 Text GLabel 9950 2900 0    50   Input ~ 0
 START
-Text GLabel 6400 7600 2    50   Input ~ 0
+Text GLabel 6350 7550 2    50   Input ~ 0
 START
 Wire Notes Line
 	11150 4200 8750 4200
@@ -1053,21 +1009,21 @@ Wire Notes Line
 	8750 4200 8750 1900
 Wire Notes Line
 	8750 1900 11150 1900
-Text GLabel 8600 1300 0    50   Input ~ 0
+Text GLabel 8600 1250 0    50   Input ~ 0
 +12v
-Text GLabel 8600 1150 0    50   Input ~ 0
+Text GLabel 8600 1100 0    50   Input ~ 0
 DRVKILL
 Text GLabel 9100 2050 2    50   Input ~ 0
 DRVKILL
 Text GLabel 9100 2650 2    50   Input ~ 0
 OT_KILL
-Text GLabel 7000 3100 3    50   Input ~ 0
+Text GLabel 6950 3800 3    50   Input ~ 0
 OT_KILL
 Text GLabel 3200 1650 3    50   Input ~ 0
 CAR_ON
-Text GLabel 7600 3100 3    50   Input ~ 0
+Text GLabel 7550 3800 3    50   Input ~ 0
 CAR_ON
-Text GLabel 7200 1550 0    50   Input ~ 0
+Text GLabel 7200 1450 0    50   Input ~ 0
 TPS2
 Text GLabel 1850 3150 2    50   Input ~ 0
 TPS2
@@ -1077,23 +1033,23 @@ Text GLabel 1850 5250 2    50   Input ~ 0
 ETCMOTOR+
 Text GLabel 1850 5150 2    50   Input ~ 0
 ETCMOTOR-
-Text GLabel 7200 1400 0    50   Input ~ 0
+Text GLabel 7200 1300 0    50   Input ~ 0
 ETCMOTOR+
-Text GLabel 7200 950  0    50   Input ~ 0
+Text GLabel 7200 850  0    50   Input ~ 0
 ETCMOTOR-
 Text GLabel 1850 4050 2    50   Input ~ 0
 ENG_+5
-Text GLabel 2900 4300 0    50   Input ~ 0
+Text GLabel 2900 4100 0    50   Input ~ 0
 ENG_+5
-Text GLabel 2900 3750 0    50   Input ~ 0
+Text GLabel 2900 3600 0    50   Input ~ 0
 ENG_+5
-Text GLabel 2900 3250 0    50   Input ~ 0
+Text GLabel 2900 3100 0    50   Input ~ 0
 ENG_+5
-Text GLabel 3950 3250 0    50   Input ~ 0
+Text GLabel 3900 3100 0    50   Input ~ 0
 ENG_+5
-NoConn ~ 9400 1150
-NoConn ~ 9400 1000
-NoConn ~ 9400 850 
+NoConn ~ 9400 1100
+NoConn ~ 9400 950 
+NoConn ~ 9400 800 
 Wire Notes Line
 	11150 1700 11150 700 
 Wire Notes Line
@@ -1108,4 +1064,198 @@ Wire Notes Line
 	9400 6500 9400 4300
 Wire Notes Line
 	9400 4300 11150 4300
+$Comp
+L Lukas_Library:ShiftController U?
+U 1 1 6013F890
+P 7700 4500
+F 0 "U?" H 7700 4615 50  0001 C CNN
+F 1 "ShiftController" H 7700 4523 50  0000 C CNN
+F 2 "" H 7700 4500 50  0001 C CNN
+F 3 "" H 7700 4500 50  0001 C CNN
+	1    7700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60144045
+P 7300 6350
+F 0 "#PWR?" H 7300 6100 50  0001 C CNN
+F 1 "GND" H 7300 6200 50  0000 C CNN
+F 2 "" H 7300 6350 50  0001 C CNN
+F 3 "" H 7300 6350 50  0001 C CNN
+	1    7300 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60145DCB
+P 7300 5600
+F 0 "#PWR?" H 7300 5350 50  0001 C CNN
+F 1 "GND" H 7300 5450 50  0000 C CNN
+F 2 "" H 7300 5600 50  0001 C CNN
+F 3 "" H 7300 5600 50  0001 C CNN
+	1    7300 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60146847
+P 7300 5450
+F 0 "#PWR?" H 7300 5200 50  0001 C CNN
+F 1 "GND" H 7300 5300 50  0000 C CNN
+F 2 "" H 7300 5450 50  0001 C CNN
+F 3 "" H 7300 5450 50  0001 C CNN
+	1    7300 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60146A25
+P 7300 4700
+F 0 "#PWR?" H 7300 4450 50  0001 C CNN
+F 1 "GND" H 7300 4550 50  0000 C CNN
+F 2 "" H 7300 4700 50  0001 C CNN
+F 3 "" H 7300 4700 50  0001 C CNN
+	1    7300 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 60148857
+P 8700 5150
+F 0 "L?" V 8654 5228 50  0000 L CNN
+F 1 "COIL" V 8750 5200 50  0000 L CNN
+F 2 "" H 8700 5150 50  0001 C CNN
+F 3 "~" H 8700 5150 50  0001 C CNN
+	1    8700 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 60149C61
+P 8700 5650
+F 0 "L?" V 8654 5728 50  0000 L CNN
+F 1 "COIL" V 8750 5700 50  0000 L CNN
+F 2 "" H 8700 5650 50  0001 C CNN
+F 3 "~" H 8700 5650 50  0001 C CNN
+	1    8700 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 6014A23A
+P 9050 5400
+F 0 "L?" V 9096 5478 50  0000 L CNN
+F 1 "COIL" V 9000 5450 50  0000 L CNN
+F 2 "" H 9050 5400 50  0001 C CNN
+F 3 "~" H 9050 5400 50  0001 C CNN
+	1    9050 5400
+	0    1    -1   0   
+$EndComp
+Text GLabel 8700 4900 0    50   Input ~ 0
+SOL1
+Text GLabel 8700 5900 0    50   Input ~ 0
+SOL2
+Text GLabel 8700 5400 0    50   Input ~ 0
+SOL3
+Wire Wire Line
+	8700 4900 9050 4900
+Wire Wire Line
+	9050 4900 9050 5150
+Wire Wire Line
+	9050 5650 9050 5900
+Wire Wire Line
+	9050 5900 8700 5900
+Text GLabel 8100 5300 2    50   Input ~ 0
+SOL1
+Text GLabel 8100 6200 2    50   Input ~ 0
+SOL1
+Text GLabel 8100 6350 2    50   Input ~ 0
+SOL1
+Text GLabel 8100 5900 2    50   Input ~ 0
+SOL3
+Text GLabel 8100 6050 2    50   Input ~ 0
+SOL3
+Text GLabel 8100 5150 2    50   Input ~ 0
+SOL3
+Text GLabel 8100 5000 2    50   Input ~ 0
+SOL3
+Text GLabel 8100 5450 2    50   Input ~ 0
+SOL1
+Text GLabel 8100 5600 2    50   Input ~ 0
+SOL2
+Text GLabel 8100 5750 2    50   Input ~ 0
+SOL2
+Text GLabel 8100 4700 2    50   Input ~ 0
+SOL2
+Text GLabel 8100 4850 2    50   Input ~ 0
+SOL2
+Text GLabel 7300 4850 0    50   Input ~ 0
++12v
+Text GLabel 7300 5000 0    50   Input ~ 0
++12v
+Text GLabel 7300 5150 0    50   Input ~ 0
++12v
+Text GLabel 7300 5300 0    50   Input ~ 0
++12v
+Wire Notes Line
+	9350 6500 7000 6500
+Wire Notes Line
+	6750 4200 8700 4200
+Wire Notes Line
+	8700 4200 8700 2850
+Wire Notes Line
+	6750 2850 8700 2850
+Wire Notes Line
+	6750 2850 6750 4200
+Text Notes 8000 4300 0    50   ~ 0
+Shift Control
+Text Notes 8550 4700 0    50   ~ 0
+Shift Solenoid
+Wire Notes Line
+	8400 4700 8400 6000
+Wire Notes Line
+	8400 6000 9300 6000
+Wire Notes Line
+	9300 6000 9300 4700
+Wire Notes Line
+	9300 4700 8400 4700
+Wire Notes Line
+	9350 4300 7000 4300
+Wire Notes Line
+	7000 4300 7000 6500
+Wire Notes Line
+	9350 4300 9350 6500
+Text GLabel 5750 4700 0    50   Input ~ 0
++12v
+Wire Notes Line
+	5300 4900 5300 2950
+Wire Notes Line
+	2450 2950 5300 2950
+Wire Notes Line
+	2450 4900 5300 4900
+Wire Notes Line
+	5350 5700 6900 5700
+Wire Notes Line
+	6900 5700 6900 4300
+Wire Notes Line
+	6900 4300 5350 4300
+Wire Notes Line
+	5350 4300 5350 5700
+Text Notes 5800 4300 0    50   ~ 0
+Wireless Telemetry
+Wire Notes Line
+	6650 550  6650 1850
+Wire Notes Line
+	6650 1850 8050 1850
+Wire Notes Line
+	6650 550  8050 550 
+Wire Notes Line
+	2450 500  2450 2450
+Wire Notes Line
+	2450 2450 6600 2450
+Wire Notes Line
+	6600 2450 6600 500 
+Wire Notes Line
+	6600 500  2450 500 
 $EndSCHEMATC
